@@ -50,7 +50,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
-    <!-- Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -76,9 +75,7 @@
     </script>
   </head>
   <body class="font-sans text-gray-800">
-    <!-- Fixed Container: Announcement und Navigation -->
     <div class="fixed top-0 left-0 w-full z-50">
-      <!-- Announcement Bar -->
       <div
         class="box-border overflow-hidden bg-gradient-to-br from-blue-700 to-blue-900 text-white py-2 px-2 md:px-4 flex flex-wrap items-center justify-center text-sm md:text-lg"
       >
@@ -131,7 +128,6 @@
       <header class="bg-white/90 backdrop-blur-md shadow">
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex items-center justify-between py-4">
-            <!-- Logo/Title -->
             <div class="flex flex-col">
               <div class="text-3xl text-blue-700 md:text-xl sm:text-lg">
                 Psychotherapie Praxis
@@ -140,7 +136,7 @@
                 Sterk Eszter
               </div>
             </div>
-            <!-- Desktop Navigation -->
+
             <nav class="hidden md:block" aria-label="Hauptnavigation">
               <ul class="flex space-x-8">
                 <li>
@@ -169,7 +165,7 @@
                 </li>
               </ul>
             </nav>
-            <!-- Mobile Hamburger -->
+
             <div class="md:hidden">
               <button
                 id="nav-toggle"
@@ -229,10 +225,8 @@
         </div>
       </header>
     </div>
-    <!-- Ende Fixed Container -->
 
     <main class="max-w-7xl mx-auto bg-blue-50/70 rounded-xl shadow-lg mt-24">
-      <!-- Hero Section -->
       <section
         id="startseite"
         class="text-center py-16 px-10 bg-white rounded-xl shadow-md mb-20"
@@ -259,7 +253,6 @@
           Sterk Eszter
         </h2>
         <div class="flex flex-wrap gap-5 justify-center">
-          <!-- About Card 1 -->
           <div
             class="bg-blue-700 rounded-md p-5 shadow transition-transform hover:-translate-y-1 flex-1 min-w-[300px]"
           >
@@ -279,7 +272,7 @@
               eröffnen.
             </p>
           </div>
-          <!-- About Card 2 -->
+
           <div
             class="bg-blue-700 rounded-md p-5 shadow transition-transform hover:-translate-y-1 flex-1 min-w-[300px]"
           >
@@ -296,7 +289,7 @@
               angewandte Tiefenpsychologie und allgemeine Psychotherapie
             </p>
           </div>
-          <!-- About Card 3 -->
+
           <div
             class="bg-blue-700 rounded-md p-5 shadow transition-transform hover:-translate-y-1 flex-1 min-w-[300px]"
           >
@@ -312,7 +305,7 @@
               <li>Institut für Psychotherapie im ländlichen Raum Burgenland</li>
             </ul>
           </div>
-          <!-- About Card 4 -->
+
           <div
             class="bg-blue-700 rounded-md p-5 shadow transition-transform hover:-translate-y-1 flex-1 min-w-[300px]"
           >
@@ -326,7 +319,6 @@
         </div>
       </section>
 
-      <!-- Arbeitsbereiche / Services Section -->
       <section
         id="arbeitsbereiche"
         class="bg-white py-16 px-10 rounded-lg shadow-md mb-20"
@@ -489,14 +481,12 @@
       </button>
     </div>
 
-    <!-- JavaScript: Mobile Navigation -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const navToggle = document.getElementById("nav-toggle");
         const mobileMenu = document.getElementById("mobile-menu");
         const hamburger = document.getElementById("hamburger");
 
-        // SVG-Pfade für Hamburger- und Schließen-Icon
         const hamburgerIcon =
           '<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>';
         const closeIcon =
